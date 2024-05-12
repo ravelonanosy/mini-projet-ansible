@@ -104,3 +104,9 @@ Elle permet de deployer l'application sur une machine client quelque soit la fam
 
 ![docker_ps_worker_centos7](https://github.com/ravelonanosy/mini-projet-ansible/assets/138290448/44cdf9a8-9788-4ec5-8b42-42c258d4b7a2)
 
+
+
+
+
+
+![url_worker_centos7](https://github.com/ravelonanosy/mini-projet-ansible/assets/138290448/820a3eee-237a-4df3-85e4-8d94f1943e95)
