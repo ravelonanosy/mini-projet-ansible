@@ -81,7 +81,7 @@ Elle permet de deployer l'application sur une machine client quelque soit la fam
 
 ## resultats sur les differents workers
 
--sur le client Ubnuntu 22:
+-sur le client Ubuntu 22 (IP: 192.168.56.64, port: 8080):
 
 
 
@@ -91,8 +91,6 @@ Elle permet de deployer l'application sur une machine client quelque soit la fam
 
 
 
-
-
-
+![url_worker_ubuntu22](https://github.com/ravelonanosy/mini-projet-ansible/assets/138290448/3a903035-d911-42bb-b999-5c15578e986b)
 
 
