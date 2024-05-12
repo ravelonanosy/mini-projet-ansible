@@ -50,9 +50,13 @@ Elle cree l'arborescence du projet.
 
 -templates/: contient les fichiers templates docker-compose.yml.j2 et index.html.j2 , ces fichiers vont etre copiés sur les workers lors de l'execution du tasks/main.yml
 
--tests/: contient les fichiers inventory "hosts_ubuntu.yaml" et test.yml
+-tests/: contient les fichiers inventory "hosts_ubuntu.yaml" ou figure les workers sur lesquels on deploie l'application et le fichier principal " test.yml"
 
 test.yml est donc le playbook a jouer , entre autre il execute le role "ansible_project"
+
+## execution du playbook
+
+
 
 
 
