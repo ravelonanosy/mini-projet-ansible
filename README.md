@@ -20,6 +20,14 @@ Le projet necessite une mise en place de connexions ssh depuis le serveur ansibl
 
 Pour se faire,
 
+-sur le serveur ansible master, ajouter les worker dans le fichier /etc/hosts comme ceci:
+
+
+![master_etc_hosts](https://github.com/ravelonanosy/mini-projet-ansible/assets/138290448/1cc32d71-8dcd-4266-a754-a9516e2ade3b)
+
+
+
+
 -sur le serveur Ansible master , lancer la commande "ssh-keygen -t rsa"
 
 -recuperer le contenu du fichier "id_ras_pub" sous /root/.ssh et aller copier sur les workers dans le fichier "authorized_keys" sous /root/.ssh (de chaque worker  )
