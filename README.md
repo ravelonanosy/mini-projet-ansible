@@ -48,7 +48,13 @@ Elle cree l'arborescence du projet.
 
 - main.yml, appelle les 2 fichiers docker-debian.yml et docker-redhat.yml , copie le site sur les differents workers, installe et lance docker-compose pour deployer l'application sur les workers
 
--templates/: contient les fichiers templates .jinja2 , ces fichiers vont etre copiés sur les workers lors de l'execution du tasks/main.yml
+-templates/: contient les fichiers templates docker-compose.yml.j2 et index.html.j2 , ces fichiers vont etre copiés sur les workers lors de l'execution du tasks/main.yml
+
+-tests/: contient les fichiers inventory "hosts_ubuntu.yaml" et test.yml
+
+test.yml est donc le playbook a jouer , entre autre il execute le role "ansible_project"
+
+
 
 
 
