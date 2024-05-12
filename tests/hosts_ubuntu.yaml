@@ -1,0 +1,10 @@
+all:
+  vars:
+staging:
+  vars:
+    env: staging
+  hosts:
+    client1:
+      ansible_host: ansibleworker2
+    client2:
+      ansible_host: ansiblewkcentos7

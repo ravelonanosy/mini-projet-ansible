@@ -1,0 +1,26 @@
+---
+- include_tasks: docker-redhat.yml
+  when: ansible_os_family == 'RedHat'
+
+- include_tasks: docker-debian.yml
+  when: ansible_os_family == 'Debian'
+
+- name: copy fichier template
+  template:
+    src: index.html.j2
+    dest: /{{ system_user }}/index.html
+
+- name: Deploy Docker Compose project containers
+  template:
+    src: docker-compose.yml.j2
+    dest: "{{ compose_project_dir }}/docker-compose.yml"
+    owner: "{{ system_user }}"
+    group: "{{ system_user }}"
+    mode: 0644
+
+- name: Run docker-compose up
+  command:
+    cmd: "{{ compose_binary_dir }}/docker-compose -f docker-compose.yml up -d"
+  args:
+    chdir: "{{ compose_project_dir }}"
+

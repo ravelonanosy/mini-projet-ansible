@@ -1,0 +1,5 @@
+---
+# defaults file for test-role
+system_user: root
+compose_project_dir: /{{ system_user }}
+compose_binary_dir: /usr/libexec/docker/cli-plugins

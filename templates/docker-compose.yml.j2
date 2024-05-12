@@ -1,0 +1,9 @@
+version: '3'
+services:
+    httpd:
+        container_name: apache-ctnr
+        ports:
+            - 8080:80
+        image: httpd
+        volumes:
+          - /{{ system_user }}/index.html:/usr/local/apache2/htdocs/index.html
