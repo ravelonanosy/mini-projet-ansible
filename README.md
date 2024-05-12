@@ -133,9 +133,9 @@ Elle permet de deployer l'application sur une machine client quelque soit la fam
 
 
 Ce mini-projet Ansible permet de deployer des applications conteneurisés ou pas en automatique sur differents clients d'OS differents, ici client Redhat et client Debian.
-Ces codes sont a ameliorer au niveau securité car par exemple le deploiement sur CentOS 7 ne necessite pas d'utiliser le compte "root" , contrairement au deploiement au deploiement sur le client Ubuntu.
+Ces codes sont a ameliorer au niveau variabilisation et au niveau securité car par exemple le deploiement sur CentOS 7 ne necessite pas d'utiliser le compte "root" , contrairement au deploiement sur le client Ubuntu.
 
-Ces codes sont aussi a ameliorer au niveau variabilisation, faute de temps.
+
 
 
 
