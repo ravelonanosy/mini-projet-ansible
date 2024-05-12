@@ -48,7 +48,9 @@ Elle cree l'arborescence du projet.
 
 - main.yml, appelle les 2 fichiers docker-debian.yml et docker-redhat.yml , copie le site sur les differents workers, installe et lance docker-compose pour deployer l'application sur les workers
 
-- 
+-templates/: contient les fichiers templates .jinja2 , ces fichiers vont etre copiés sur les workers lors de l'execution du tasks/main.yml
+
+
 
 
 
