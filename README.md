@@ -1,38 +1,34 @@
-Role Name
-=========
+# Mini-projet Ansible
 
-A brief description of the role goes here.
+objectif: installation d'application web utilisant les roles Ansible
 
-Requirements
-------------
+## infrastructures utilisées:
 
-Any pre-requisites that may not be covered by Ansible itself or the role should be mentioned here. For instance, if the role uses the EC2 module, it may be a good idea to mention in this section that the boto package is required.
+-un serveur master Ubuntu 22
 
-Role Variables
---------------
+-un  worker Ubuntu 22
 
-A description of the settable variables for this role should go here, including any variables that are in defaults/main.yml, vars/main.yml, and any variables that can/should be set via parameters to the role. Any variables that are read from other roles and/or the global scope (ie. hostvars, group vars, etc.) should be mentioned here as well.
+-un worker  CentOS 7
 
-Dependencies
-------------
+## outil de provisionning
 
-A list of other roles hosted on Galaxy should go here, plus any details in regards to parameters that may need to be set for other roles, or variables that are used from other roles.
+-Vagrant avec Virtualbox
 
-Example Playbook
-----------------
+## prerequis 
 
-Including an example of how to use your role (for instance, with variables passed in as parameters) is always nice for users too:
+Le projet necessite une mise en place de connexions ssh depuis le serveur ansible master vers les differents worker (Ubuntu 22 et CentOS 7)
 
-    - hosts: servers
-      roles:
-         - { role: username.rolename, x: 42 }
+Pour se faire,
 
-License
--------
+-sur le serveur Ansible master et  lancer la commande "ssh-keygen -t rsa"
 
-BSD
+-recuperer le contenu du fichier "id_ras_pub" et aller copier sur les workers dans le fichier "authorized_keys" sous /{{system_user}}/.ssh
 
-Author Information
-------------------
+system_user: root 
 
-An optional section for the role authors to include contact information, or a website (HTML is not allowed).
+NB:  l'installation de docker-debian neccessite le compte "root", car sinon le script n'aiive pas a écrire dans certains repertoires comme /var/lib/dpkg/ etc... sur le worker Ubuntu 22.
+
+
+
+
+
