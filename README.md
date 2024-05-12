@@ -64,8 +64,11 @@ Elle permet de deployer l'application sur une machine client quelque soit la fam
 
 ## les logs d'execution
 
+-pour worker Ubuntu 22:
 
 
+
+![ansible-playbook_run_on_ubuntu22](https://github.com/ravelonanosy/mini-projet-ansible/assets/138290448/3fc31ced-4630-411f-bad2-01d37632aa03)
 
 
 
