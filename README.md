@@ -23,7 +23,13 @@ Pour se faire,
 -sur le serveur ansible master, ajouter les worker dans le fichier /etc/hosts comme ceci:
 
 
-![master_etc_hosts](https://github.com/ravelonanosy/mini-projet-ansible/assets/138290448/1cc32d71-8dcd-4266-a754-a9516e2ade3b)
+
+
+
+
+![master_etc_hosts](https://github.com/ravelonanosy/mini-projet-ansible/assets/138290448/8ebdb64b-e42c-4c7f-8753-c17463fccb85)
+
+
 
 
 
