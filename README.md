@@ -38,7 +38,7 @@ Pour se faire,
 
 -recuperer le contenu du fichier "id_ras_pub" sous /root/.ssh et aller copier sur les workers dans le fichier "authorized_keys" sous /root/.ssh (de chaque worker  )
 
-NB:  l'installation de docker-debian neccessite le compte "root", car sinon le script n'arrive pas a écrire dans certains repertoires comme /var/lib/dpkg/ etc... sur le worker Ubuntu 22.
+NB:  l'installation de docker-debian neccessite le compte "root", car sinon le script n'arrive pas a écrire dans certains repertoires comme /var/lib/dpkg/ , /var/lib/apt etc... sur le worker Ubuntu 22.
 
 L'objectif de cette manipulation est de rendre les connexions ssh en automatique vers les workers.
 
