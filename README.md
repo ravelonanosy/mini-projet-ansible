@@ -56,6 +56,14 @@ test.yml est donc le playbook a jouer , entre autre il execute le role "ansible_
 
 ## execution du playbook
 
+Aller sur le serveur ansible master, et lancer la commande suivante:
+
+ansible-playbook -i hosts_ubuntu.yaml test.yml
+
+Elle permet de deployer l'application sur une machine client quelque soit la famille d'OS installé ( famille Debian et famille Redhat dans notre cas).
+
+## les logs d'execution
+
 
 
 
