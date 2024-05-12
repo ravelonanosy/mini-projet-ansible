@@ -91,6 +91,16 @@ Elle permet de deployer l'application sur une machine client quelque soit la fam
 
 
 
+
 ![url_worker_ubuntu22](https://github.com/ravelonanosy/mini-projet-ansible/assets/138290448/3a903035-d911-42bb-b999-5c15578e986b)
 
+
+
+
+
+-sur le client CentOS 7 (IP: 192.168.56.68, port: 8080):
+
+
+
+![docker_ps_worker_centos7](https://github.com/ravelonanosy/mini-projet-ansible/assets/138290448/44cdf9a8-9788-4ec5-8b42-42c258d4b7a2)
 
