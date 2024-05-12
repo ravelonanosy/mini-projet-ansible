@@ -122,6 +122,13 @@ Elle permet de deployer l'application sur une machine client quelque soit la fam
 
 
 
+![url_worker_centos7](https://github.com/ravelonanosy/mini-projet-ansible/assets/138290448/820a3eee-237a-4df3-85e4-8d94f1943e95)
+
+
+
+
+
+
 ## conclusion
 
 
@@ -134,4 +141,3 @@ Ces codes sont aussi a ameliorer au niveau variabilisation, faute de temps.
 
 
 
-![url_worker_centos7](https://github.com/ravelonanosy/mini-projet-ansible/assets/138290448/820a3eee-237a-4df3-85e4-8d94f1943e95)
