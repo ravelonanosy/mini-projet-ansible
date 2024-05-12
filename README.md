@@ -28,6 +28,34 @@ NB:  l'installation de docker-debian neccessite le compte "root", car sinon le s
 
 L'objectif de cette manipulation est de rendre les connexions ssh en automatique vers les workers.
 
+## mise en place du projet
+
+-initialisation du repertoire role :
+
+Aller sur ansible master et lancer la commande :
+
+ansible-galaxy init ansible_project 
+
+Elle cree l'arborescence du projet.
+
+-defaults/:  main.yml, contient tous les variables utilisés( par defaut)
+
+-tasks/: 3 fichiers YML ont été créés 
+
+- docker-debian.yml, contient les differntes taches d'installation de docker sur un OS de la famille Debian (Ubuntu dans notre cas)
+
+- docker-redhat.yml, contient les differntes taches d'installation de docker sur un OS de la famille Redhat (CentOS dans notre cas)
+
+- main.yml, appelle les 2 fichiers docker-debian.yml et docker-redhat.yml , copie le site sur les differents workers, installe et lance docker-compose pour deployer l'application sur les workers
+
+- 
+
+
+
+
+
+
+
 
 
 
