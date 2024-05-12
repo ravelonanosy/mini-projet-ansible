@@ -56,9 +56,9 @@ Elle cree l'arborescence du projet.
 
 -tasks/: 3 fichiers YML ont été créés 
 
-- docker-debian.yml, contient les differntes taches d'installation de docker et le serveur web Apache sur un OS de la famille Debian (Ubuntu dans notre cas)
+- docker-debian.yml, contient les differntes taches d'installation de docker sur un OS de la famille Debian (Ubuntu dans notre cas)
 
-- docker-redhat.yml, contient les differntes taches d'installation de docker et le serveur web Apache sur un OS de la famille Redhat (CentOS dans notre cas)
+- docker-redhat.yml, contient les differntes taches d'installation de docker sur un OS de la famille Redhat (CentOS dans notre cas)
 
 - main.yml, appelle les 2 fichiers docker-debian.yml et docker-redhat.yml , copie le site sur les differents workers, installe et lance docker-compose pour deployer l'application sur les workers
 
