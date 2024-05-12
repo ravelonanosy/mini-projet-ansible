@@ -79,6 +79,13 @@ Elle permet de deployer l'application sur une machine client quelque soit la fam
 
 
 
+## resultats sur les differents workers
+
+-sur le client Ubnuntu 22:
+
+
+
+![docker_ps_worker_ubuntu22](https://github.com/ravelonanosy/mini-projet-ansible/assets/138290448/e2b95180-3237-4734-b837-984c0d27ae63)
 
 
 
