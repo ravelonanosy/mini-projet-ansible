@@ -20,13 +20,11 @@ Le projet necessite une mise en place de connexions ssh depuis le serveur ansibl
 
 Pour se faire,
 
--sur le serveur Ansible master et  lancer la commande "ssh-keygen -t rsa"
+-sur le serveur Ansible master , lancer la commande "ssh-keygen -t rsa"
 
--recuperer le contenu du fichier "id_ras_pub" et aller copier sur les workers dans le fichier "authorized_keys" sous /{{system_user}}/.ssh
+-recuperer le contenu du fichier "id_ras_pub" sous /root/.ssh et aller copier sur les workers dans le fichier "authorized_keys" sous /root/.ssh (de chaque worker  )
 
-system_user: root 
-
-NB:  l'installation de docker-debian neccessite le compte "root", car sinon le script n'aiive pas a écrire dans certains repertoires comme /var/lib/dpkg/ etc... sur le worker Ubuntu 22.
+NB:  l'installation de docker-debian neccessite le compte "root", car sinon le script n'arrive pas a écrire dans certains repertoires comme /var/lib/dpkg/ etc... sur le worker Ubuntu 22.
 
 
 
